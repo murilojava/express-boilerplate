@@ -17,15 +17,15 @@ Todos os serviços que for utilizar pretendo deixar dockerizado para não ter do
 
 Próximos passos
 
-[] Configurar o typescript
-[] Configurar a lib para testes
-[] Configurar carregamento de variaveis de ambiente
-[] Configurar o docker
-[] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
-[] Criar um crud simples
-[] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
+- [X] Configurar o typescript
+- [X] Configurar a lib para testes
+- [ ] Configurar carregamento de variaveis de ambiente
+- [ ] Configurar o docker
+- [ ] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
+- [ ] Criar um crud simples
+- [ ] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
     - A ideia é enfileirar um geração de um arquivo.
-[] Configurar documentação de API 
+- [ ] Configurar documentação de API 
 
 
 
