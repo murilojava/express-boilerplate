@@ -1,13 +1,40 @@
 # Express Boilerplate (Projeto para testes)
 
-## This project is used to make some testes and store some sinnipets of code.
+## This project is used to make some tests and store some code snippets.
 ## Este projeto é usado para fazer alguns testes e guardar alguns trechos de código.
 
+Vale ressaltar que o objetivo deste projeto é estudos e teste de bibliotecas e ferramentas.
+Hoje eu prefiro utilizar um framework "pronto" utilizo o NestJs
 
-### Será usado o expresse como biblioteca http pois quero fazer um projeto mais simples e ir integrando outros serviços como: mensageria, websockets, crons e o que mais eu achar interessante  =D
+
+### Será usado o Express como biblioteca HTTP, pois quero fazer um projeto mais simples e ir integrando outros serviços como: mensageria, websockets, crons e o que mais eu achar interessante =D
 
 O projeto vai utilizar typescript e vou seguir o exemplo de uso da propria documentação.
 
 Também vou utilizar o docker para poder subir o projeto sem necessidade de instalar o node localmente.
 
 Todos os serviços que for utilizar pretendo deixar dockerizado para não ter dor de cabeça na instalação.
+
+Próximos passos
+
+[] Configurar o typescript
+[] Configurar a lib para testes
+[] Configurar carregamento de variaveis de ambiente
+[] Configurar o docker
+[] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
+[] Criar um crud simples
+[] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
+    - A ideia é enfileirar um geração de um arquivo.
+[] Configurar documentação de API 
+
+
+
+Para rodar o projeto localmente
+ - Está sendo utilizado o node 20.x
+ - Logo o padrão é `npm install`
+ - Depois para rodar em desenvolvimento `npm run dev`
+
+
+
+
+
