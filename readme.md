@@ -20,7 +20,7 @@ Próximos passos
 - [X] Configurar o typescript
 - [X] Configurar a lib para testes
 - [ ] Configurar carregamento de variaveis de ambiente
-- [ ] Configurar o docker
+- [X] Configurar o docker
 - [ ] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
 - [ ] Criar um crud simples
 - [ ] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
@@ -36,5 +36,11 @@ Para rodar o projeto localmente
 
 
 
+Docker 
+ - Precisa ter o docker instalado e sendo executado
+ - Para rodar como produção
+ - `docker build -t express-boilerplate .`
+ - `docker run -dp 127.0.0.1:3000:3000 express-boilerplate`
+ - Para rodar em desenvolvimento ...
 
 

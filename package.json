@@ -2,10 +2,13 @@
   "name": "express-boilerplate",
   "version": "1.0.0",
   "description": "This project is used to make some testes and store some sinnipets of code.",
+  "tsup": {
+    "entry": ["src", "!src/tests/**/*"]
+  },
   "scripts": {
     "start": "node dist/app.js",
     "dev": "tsx watch src/app.ts",
-    "build": "tsup src/",
+    "build": "tsup",
     "test": "vitest src/tests/"
   },
   "keywords": [
