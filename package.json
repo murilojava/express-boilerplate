@@ -1,0 +1,10 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "This project is used to make some testes and store some sinnipets of code.",
+  "scripts": {
+  },
+  "keywords": ["exporess"],
+  "author": "Murlo Barbosa",
+  "license": "MIT"
+}
