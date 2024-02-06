@@ -21,7 +21,7 @@ Próximos passos
 - [X] Configurar a lib para testes
 - [X] Configurar carregamento de variaveis de ambiente
 - [X] Configurar o docker
-- [ ] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
+- [X] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
 - [ ] Criar um crud simples
 - [ ] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
     - A ideia é enfileirar um geração de um arquivo.
