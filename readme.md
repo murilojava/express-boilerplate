@@ -19,7 +19,7 @@ Próximos passos
 
 - [X] Configurar o typescript
 - [X] Configurar a lib para testes
-- [ ] Configurar carregamento de variaveis de ambiente
+- [X] Configurar carregamento de variaveis de ambiente
 - [X] Configurar o docker
 - [ ] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
 - [ ] Criar um crud simples
