@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import { UsersController } from "./controllers/auth/users.controller";
 import { Controller } from "./controllers/controller";
 import { ItsAliveController } from "./controllers/its-alive.controller";
+import { CustomersController } from "./controllers/orders/customers.controller";
 
 class App {
   public app: express.Application;
@@ -49,6 +50,10 @@ class App {
 
 const port = process.env.PORT ? parseInt(process.env.PORT) : 3000;
 const serverApp = new App(port);
-serverApp.init([new ItsAliveController(), new UsersController()]).then(() => {
+serverApp.init([
+  new ItsAliveController(), //
+  new UsersController(), //
+  new CustomersController(), //
+]).then(() => {
   console.log("Server initialized!");
 });
