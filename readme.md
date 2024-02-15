@@ -26,6 +26,7 @@ Próximos passos
 - [X] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
     - A ideia é enfileirar um geração de um arquivo.
     - OBS1
+    - OBS2
 - [ ] Configurar documentação de API 
 
 
@@ -49,3 +50,9 @@ OBS1
  - Não ficou exatamente como eu gostaria mas deu para ver o funcionamento da lib e comparar com outro serviço de mensageria.
  - Outro ponto que mudaria do exemplo apresentado no site do rabbitMQ seria usar o banco para salvar as mensagens offlines.
  - O processo de uso de mensageria é relativamente simples de usar processar.
+
+OBS2
+ - Foi feita uma mudança para usar como um classe.
+ - Uma pendência é criar como um serviço e compartilhar para os controllers a instância preferi fazer como singleton para facilitar.
+ - Outra coisa que gostaria de fazer mas que da para utilizar é adicionar várias filas ao serviço.
+ - Pensei em fazer algo semelhando ao que foi feito no arquivo app.ts na parte de controllers.
