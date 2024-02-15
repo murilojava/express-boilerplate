@@ -1,3 +1,3 @@
 export interface Controller {
-  configueRoutes(app: any): void;
+  configueRoutes(httpServer: any): void;
 }

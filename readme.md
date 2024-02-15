@@ -23,8 +23,9 @@ Próximos passos
 - [X] Configurar o docker
 - [X] Configurar o conexão como banco de dados (pretendo utilizar o mongodb e postgres futuramente)
 - [X] Criar um crud simples
-- [ ] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
+- [X] Criar estrutura para usar mensageria (pretendo utilizar o rabbitMQ)
     - A ideia é enfileirar um geração de um arquivo.
+    - OBS1
 - [ ] Configurar documentação de API 
 
 
@@ -44,3 +45,7 @@ Docker
  - Para rodar em desenvolvimento ...
 
 
+OBS1 
+ - Não ficou exatamente como eu gostaria mas deu para ver o funcionamento da lib e comparar com outro serviço de mensageria.
+ - Outro ponto que mudaria do exemplo apresentado no site do rabbitMQ seria usar o banco para salvar as mensagens offlines.
+ - O processo de uso de mensageria é relativamente simples de usar processar.
